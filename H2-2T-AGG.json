@@ -1,0 +1,2562 @@
+{
+    "pedidos": {
+      "2021": {
+        "trimestre_1": [
+          {
+            "nombre": "Juan",
+            "apellidos": "Gómez",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Calle Mayor 123",
+              "ciudad": "Madrid",
+              "codigo_postal": "28001",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "juan@gmail.com",
+            "fecha_inclusion": "2021-01-05",
+            "pedido": {
+              "numero_pedido": "0001",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 150.00,
+              "productos": [
+                {
+                  "nombre_producto": "Camiseta",
+                  "referencia": "CMST001",
+                  "precio": 25.00,
+                  "unidades": 3
+                },
+                {
+                  "nombre_producto": "Pantalón",
+                  "referencia": "PNTL002",
+                  "precio": 40.00,
+                  "unidades": 2
+                }
+
+              ]
+            }
+          },
+          {
+            "nombre": "María",
+            "apellidos": "López",
+            "telefono": "987654321",
+            "direccion": {
+              "calle": "Avenida Libertad 456",
+              "ciudad": "Barcelona",
+              "codigo_postal": "08002",
+              "provincia": "Barcelona"
+            },
+            "correo_electronico": "maria@gmail.com",
+            "fecha_inclusion": "2021-04-15",
+            "pedido": {
+              "numero_pedido": "0002",
+              "fecha_compra": "2021-04-15",
+              "fecha_entrega": "2021-04-20",
+              "total_factura": 220.00,
+              "productos": [
+                {
+                  "nombre_producto": "Vestido",
+                  "referencia": "VSTD003",
+                  "precio": 80.00,
+                  "unidades": 2
+                },
+                {
+                  "nombre_producto": "Zapatos",
+                  "referencia": "ZP001",
+                  "precio": 60.00,
+                  "unidades": 2
+                }
+              ]
+            }
+          },
+          {  
+              "nombre": "Juan",
+              "apellidos": "García",
+              "telefono": "123456789",
+              "direccion": {
+                  "calle": "Calle Mayor 123",
+                  "ciudad": "Madrid",
+                  "codigo_postal": "28001",
+                  "provincia": "Madrid"
+              },
+              "correo_electronico": "juan@example.com",
+              "fecha_inclusion": "2021-06-20",
+              "pedido": {
+                  "numero_pedido": "0008",
+                  "fecha_compra": "2021-07-05",
+                  "fecha_entrega": "2021-07-10",
+                  "total_factura": 180.00,
+                  "productos": [
+                      {
+                          "nombre_producto": "Camisa",
+                          "referencia": "CMS001",
+                          "precio": 60.00,
+                          "unidades": 3
+                      }
+                  ]
+              }
+            },
+            {  
+                "nombre": "Ana",
+                "apellidos": "Martínez",
+                "telefono": "987123456",
+                "direccion": {
+                    "calle": "Calle Estrella 789",
+                    "ciudad": "Sevilla",
+                    "codigo_postal": "41001",
+                    "provincia": "Sevilla"
+                },
+                "correo_electronico": "ana@example.com",
+                "fecha_inclusion": "2021-07-10",
+                "pedido": {
+                    "numero_pedido": "0009",
+                    "fecha_compra": "2021-08-10",
+                    "fecha_entrega": "2021-08-15",
+                    "total_factura": 250.00,
+                    "productos": [
+                        {
+                            "nombre_producto": "Vestido",
+                            "referencia": "VSTD003",
+                            "precio": 100.00,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Bolso",
+                            "referencia": "BLS001",
+                            "precio": 75.00,
+                            "unidades": 1
+                        }
+                    ]
+                }
+              },
+              {
+                
+                  "nombre": "Carlos",
+                  "apellidos": "Fernández",
+                  "telefono": "654789123",
+                  "direccion": {
+                      "calle": "Calle Sol 456",
+                      "ciudad": "Valencia",
+                      "codigo_postal": "46001",
+                      "provincia": "Valencia"
+                  },
+                  "correo_electronico": "carlos@example.com",
+                  "fecha_inclusion": "2021-08-15",
+                  "pedido": {
+                      "numero_pedido": "0010",
+                      "fecha_compra": "2021-09-05",
+                      "fecha_entrega": "2021-09-10",
+                      "total_factura": 120.00,
+                      "productos": [
+                          {
+                              "nombre_producto": "Pantalón",
+                              "referencia": "PTL002",
+                              "precio": 60.00,
+                              "unidades": 2
+                          }
+                      ]
+                  }
+                },
+                {
+                    "nombre": "Elena",
+                    "apellidos": "Rodríguez",
+                    "telefono": "321654987",
+                    "direccion": {
+                        "calle": "Calle Luna 789",
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "48001",
+                        "provincia": "Vizcaya"
+                    },
+                    "correo_electronico": "elena@example.com",
+                    "fecha_inclusion": "2021-09-20",
+                    "pedido": {
+                        "numero_pedido": "0011",
+                        "fecha_compra": "2021-10-10",
+                        "fecha_entrega": "2021-10-15",
+                        "total_factura": 200.00,
+                        "productos": [
+                            {
+                                "nombre_producto": "Jersey",
+                                "referencia": "JRS001",
+                                "precio": 80.00,
+                                "unidades": 2
+                            },
+                            {
+                                "nombre_producto": "Bufanda",
+                                "referencia": "BFD001",
+                                "precio": 40.00,
+                                "unidades": 2
+                            }
+                        ]
+                    }
+                  },
+                  {
+                    
+                      "nombre": "Pedro",
+                      "apellidos": "Sánchez",
+                      "telefono": "456987321",
+                      "direccion": {
+                          "calle": "Calle Gran Vía 101",
+                          "ciudad": "Madrid",
+                          "codigo_postal": "28013",
+                          "provincia": "Madrid"
+                      },
+                      "correo_electronico": "pedro@example.com",
+                      "fecha_inclusion": "2021-10-10",
+                      "pedido": {
+                          "numero_pedido": "0012",
+                          "fecha_compra": "2021-11-05",
+                          "fecha_entrega": "2021-11-10",
+                          "total_factura": 300.00,
+                          "productos": [
+                              {
+                                  "nombre_producto": "Abrigo",
+                                  "referencia": "ABG001",
+                                  "precio": 150.00,
+                                  "unidades": 1
+                              },
+                              {
+                                  "nombre_producto": "Botas",
+                                  "referencia": "BTS001",
+                                  "precio": 75.00,
+                                  "unidades": 2
+                              }
+                          ]
+                      }
+                    },
+                    {
+                      
+                        "nombre": "Laura",
+                        "apellidos": "González",
+                        "telefono": "789456123",
+                        "direccion": {
+                            "calle": "Calle Primavera 234",
+                            "ciudad": "Barcelona",
+                            "codigo_postal": "08003",
+                            "provincia": "Barcelona"
+                        },
+                        "correo_electronico": "laura@example.com",
+                        "fecha_inclusion": "2021-11-15",
+                        "pedido": {
+                            "numero_pedido": "0013",
+                            "fecha_compra": "2021-12-05",
+                            "fecha_entrega": "2021-12-10",
+                            "total_factura": 220.00,
+                            "productos": [
+                                {
+                                    "nombre_producto": "Abrigo",
+                                    "referencia": "ABG002",
+                                    "precio": 100.00,
+                                    "unidades": 1
+                                },
+                                {
+                                    "nombre_producto": "Bufanda",
+                                    "referencia": "BFD002",
+                                    "precio": 60.00,
+                                    "unidades": 2
+                                }
+                            ]
+                        }
+                      },
+                       { 
+                          "nombre": "Daniel",
+                          "apellidos": "Martín",
+                          "telefono": "987654321",
+                          "direccion": {
+                              "calle": "Calle Sol 789",
+                              "ciudad": "Madrid",
+                              "codigo_postal": "28002",
+                              "provincia": "Madrid"
+                          },
+                          "correo_electronico": "daniel@example.com",
+                          "fecha_inclusion": "2021-12-01",
+                          "pedido": {
+                              "numero_pedido": "0014",
+                              "fecha_compra": "2022-01-10",
+                              "fecha_entrega": "2022-01-15",
+                              "total_factura": 180.00,
+                              "productos": [
+                                  {
+                                      "nombre_producto": "Camisa",
+                                      "referencia": "CMS002",
+                                      "precio": 60.00,
+                                      "unidades": 3
+                                  }
+                              ]
+                          }
+                        },
+                        {
+                          
+                            "nombre": "Sofía",
+                            "apellidos": "Hernández",
+                            "telefono": "654321987",
+                            "direccion": {
+                                "calle": "Avenida del Mar 567",
+                                "ciudad": "Valencia",
+                                "codigo_postal": "46002",
+                                "provincia": "Valencia"
+                            },
+                            "correo_electronico": "sofia@example.com",
+                            "fecha_inclusion": "2022-01-15",
+                            "pedido": {
+                                "numero_pedido": "0015",
+                                "fecha_compra": "2022-02-05",
+                                "fecha_entrega": "2022-02-10",
+                                "total_factura": 200.00,
+                                "productos": [
+                                    {
+                                        "nombre_producto": "Zapatos",
+                                        "referencia": "ZP002",
+                                        "precio": 100.00,
+                                        "unidades": 2
+                                    }
+                                ]
+                            }
+                        }                          
+        ],
+        "trimestre_2": [
+          {
+            "nombre": "Marta",
+            "apellidos": "Jiménez",
+            "telefono": "789123456",
+            "direccion": {
+                "calle": "Calle Luna 101",
+                "ciudad": "Sevilla",
+                "codigo_postal": "41002",
+                "provincia": "Sevilla"
+            },
+            "correo_electronico": "marta@example.com",
+            "fecha_inclusion": "2022-02-10",
+            "pedido": {
+                "numero_pedido": "0016",
+                "fecha_compra": "2022-03-10",
+                "fecha_entrega": "2022-03-15",
+                "total_factura": 250.00,
+                "productos": [
+                    {
+                        "nombre_producto": "Vestido",
+                        "referencia": "VSTD004",
+                        "precio": 100.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre_producto": "Bolso",
+                        "referencia": "BLS002",
+                        "precio": 75.00,
+                        "unidades": 1
+                    }
+                ]
+            }
+          },
+          {
+            
+              "nombre": "Alejandro",
+              "apellidos": "López",
+              "telefono": "456789123",
+              "direccion": {
+                  "calle": "Calle Mayor 456",
+                  "ciudad": "Bilbao",
+                  "codigo_postal": "48002",
+                  "provincia": "Vizcaya"
+              },
+              "correo_electronico": "alejandro@example.com",
+              "fecha_inclusion": "2022-03-01",
+              "pedido": {
+                  "numero_pedido": "0017",
+                  "fecha_compra": "2022-04-05",
+                  "fecha_entrega": "2022-04-10",
+                  "total_factura": 220.00,
+                  "productos": [
+                      {
+                          "nombre_producto": "Camiseta",
+                          "referencia": "CMS003",
+                          "precio": 80.00,
+                          "unidades": 2
+                      },
+                      {
+                          "nombre_producto": "Pantalón",
+                          "referencia": "PTL003",
+                          "precio": 70.00,
+                          "unidades": 1
+                      }
+                  ]
+              }
+            },
+            {
+              
+                "nombre": "Laura",
+                "apellidos": "Gómez",
+                "telefono": "789456123",
+                "direccion": {
+                    "calle": "Calle Rosalía 456",
+                    "ciudad": "Barcelona",
+                    "codigo_postal": "08003",
+                    "provincia": "Barcelona"
+                },
+                "correo_electronico": "laura@example.com",
+                "fecha_inclusion": "2022-01-05",
+                "pedido": {
+                    "numero_pedido": "0013",
+                    "fecha_compra": "2022-01-10",
+                    "fecha_entrega": "2022-01-15",
+                    "total_factura": 280.00,
+                    "productos": [
+                        {
+                            "nombre_producto": "Abrigo",
+                            "referencia": "ABG002",
+                            "precio": 120.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Bufanda",
+                            "referencia": "BFD002",
+                            "precio": 40.00,
+                            "unidades": 2
+                        }
+                    ]
+                }
+              },
+              {
+                
+                  "nombre": "Manuel",
+                  "apellidos": "Gutiérrez",
+                  "telefono": "654123789",
+                  "direccion": {
+                      "calle": "Calle Mayor 789",
+                      "ciudad": "Madrid",
+                      "codigo_postal": "28004",
+                      "provincia": "Madrid"
+                  },
+                  "correo_electronico": "manuel@example.com",
+                  "fecha_inclusion": "2022-01-15",
+                  "pedido": {
+                      "numero_pedido": "0014",
+                      "fecha_compra": "2022-02-05",
+                      "fecha_entrega": "2022-02-10",
+                      "total_factura": 150.00,
+                      "productos": [
+                          {
+                              "nombre_producto": "Camisa",
+                              "referencia": "CMS002",
+                              "precio": 50.00,
+                              "unidades": 3
+                          }
+                      ]
+                  }
+                },
+                {
+                  
+                    "nombre": "Sara",
+                    "apellidos": "López",
+                    "telefono": "123789456",
+                    "direccion": {
+                        "calle": "Calle Gran Vía 456",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28013",
+                        "provincia": "Madrid"
+                    },
+                    "correo_electronico": "sara@example.com",
+                    "fecha_inclusion": "2022-02-01",
+                    "pedido": {
+                        "numero_pedido": "0015",
+                        "fecha_compra": "2022-02-10",
+                        "fecha_entrega": "2022-02-15",
+                        "total_factura": 210.00,
+                        "productos": [
+                            {
+                                "nombre_producto": "Vestido",
+                                "referencia": "VSTD004",
+                                "precio": 70.00,
+                                "unidades": 3
+                            }
+                        ]
+                    }
+                  },
+                  {
+                    
+                      "nombre": "David",
+                      "apellidos": "Martínez",
+                      "telefono": "987654321",
+                      "direccion": {
+                          "calle": "Calle San José 123",
+                          "ciudad": "Valencia",
+                          "codigo_postal": "46002",
+                          "provincia": "Valencia"
+                      },
+                      "correo_electronico": "david@example.com",
+                      "fecha_inclusion": "2022-02-15",
+                      "pedido": {
+                          "numero_pedido": "0016",
+                          "fecha_compra": "2022-03-05",
+                          "fecha_entrega": "2022-03-10",
+                          "total_factura": 180.00,
+                          "productos": [
+                              {
+                                  "nombre_producto": "Pantalón",
+                                  "referencia": "PTL003",
+                                  "precio": 60.00,
+                                  "unidades": 3
+                              }
+                          ]
+                      }
+                    },
+                    {
+                      
+                        "nombre": "Eva",
+                        "apellidos": "González",
+                        "telefono": "654987321",
+                        "direccion": {
+                            "calle": "Calle Sevilla 456",
+                            "ciudad": "Sevilla",
+                            "codigo_postal": "41002",
+                            "provincia": "Sevilla"
+                        },
+                        "correo_electronico": "eva@example.com",
+                        "fecha_inclusion": "2022-03-01",
+                        "pedido": {
+                            "numero_pedido": "0017",
+                            "fecha_compra": "2022-03-10",
+                            "fecha_entrega": "2022-03-15",
+                            "total_factura": 300.00,
+                            "productos": [
+                                {
+                                    "nombre_producto": "Abrigo",
+                                    "referencia": "ABG003",
+                                    "precio": 150.00,
+                                    "unidades": 1
+                                },
+                                {
+                                    "nombre_producto": "Bufanda",
+                                    "referencia": "BFD003",
+                                    "precio": 75.00,
+                                    "unidades": 2
+                                }
+                            ]
+                        }
+                      },
+                      {
+                        
+                          "nombre": "Laura",
+                          "apellidos": "Gómez",
+                          "telefono": "789456123",
+                          "direccion": {
+                              "calle": "Calle Alameda 456",
+                              "ciudad": "Granada",
+                              "codigo_postal": "18001",
+                              "provincia": "Granada"
+                          },
+                          "correo_electronico": "laura@example.com",
+                          "fecha_inclusion": "2021-11-20",
+                          "pedido": {
+                              "numero_pedido": "0013",
+                              "fecha_compra": "2021-12-05",
+                              "fecha_entrega": "2021-12-10",
+                              "total_factura": 220.00,
+                              "productos": [
+                                  {
+                                      "nombre_producto": "Abrigo",
+                                      "referencia": "ABG002",
+                                      "precio": 100.00,
+                                      "unidades": 1
+                                  },
+                                  {
+                                      "nombre_producto": "Bufanda",
+                                      "referencia": "BFD002",
+                                      "precio": 60.00,
+                                      "unidades": 2
+                                  }
+                              ]
+                          }
+                        },
+                        {
+                          
+                            "nombre": "David",
+                            "apellidos": "Martín",
+                            "telefono": "654123789",
+                            "direccion": {
+                                "calle": "Calle Mayor 789",
+                                "ciudad": "Zaragoza",
+                                "codigo_postal": "50001",
+                                "provincia": "Zaragoza"
+                            },
+                            "correo_electronico": "david@example.com",
+                            "fecha_inclusion": "2021-12-10",
+                            "pedido": {
+                                "numero_pedido": "0014",
+                                "fecha_compra": "2022-01-10",
+                                "fecha_entrega": "2022-01-15",
+                                "total_factura": 180.00,
+                                "productos": [
+                                    {
+                                        "nombre_producto": "Camisa",
+                                        "referencia": "CMS002",
+                                        "precio": 60.00,
+                                        "unidades": 3
+                                    }
+                                ]
+                            }
+                          },
+                          {
+                            
+                              "nombre": "Sofía",
+                              "apellidos": "López",
+                              "telefono": "987321654",
+                              "direccion": {
+                                  "calle": "Calle Sol 123",
+                                  "ciudad": "Murcia",
+                                  "codigo_postal": "30001",
+                                  "provincia": "Murcia"
+                              },
+                              "correo_electronico": "sofia@example.com",
+                              "fecha_inclusion": "2022-01-15",
+                              "pedido": {
+                                  "numero_pedido": "0015",
+                                  "fecha_compra": "2022-02-05",
+                                  "fecha_entrega": "2022-02-10",
+                                  "total_factura": 250.00,
+                                  "productos": [
+                                      {
+                                          "nombre_producto": "Vestido",
+                                          "referencia": "VSTD004",
+                                          "precio": 120.00,
+                                          "unidades": 1
+                                      },
+                                      {
+                                          "nombre_producto": "Zapatos",
+                                          "referencia": "ZP002",
+                                          "precio": 65.00,
+                                          "unidades": 1
+                                      }
+                                  ]
+                              }
+                          }
+                          
+                        
+
+          
+        ],
+        "trimestre 3": [
+          {
+            "nombre": "Carlos",
+            "apellidos": "González",
+            "telefono": "654987321",
+            "direccion": {
+                "calle": "Calle Mayor 789",
+                "ciudad": "Madrid",
+                "codigo_postal": "28001",
+                "provincia": "Madrid"
+            },
+            "correo_electronico": "carlos@example.com",
+            "fecha_inclusion": "2022-01-20",
+            "pedido": {
+                "numero_pedido": "0016",
+                "fecha_compra": "2022-02-05",
+                "fecha_entrega": "2022-02-10",
+                "total_factura": 180.00,
+                "productos": [
+                    {
+                        "nombre_producto": "Camisa",
+                        "referencia": "CMS003",
+                        "precio": 60.00,
+                        "unidades": 3
+                    }
+                ]
+            }
+          },
+          {
+            
+              "nombre": "Elena",
+              "apellidos": "Pérez",
+              "telefono": "987654123",
+              "direccion": {
+                  "calle": "Calle Gran Vía 456",
+                  "ciudad": "Barcelona",
+                  "codigo_postal": "08001",
+                  "provincia": "Barcelona"
+              },
+              "correo_electronico": "elena@example.com",
+              "fecha_inclusion": "2022-02-05",
+              "pedido": {
+                  "numero_pedido": "0017",
+                  "fecha_compra": "2022-02-20",
+                  "fecha_entrega": "2022-02-25",
+                  "total_factura": 220.00,
+                  "productos": [
+                      {
+                          "nombre_producto": "Pantalón",
+                          "referencia": "PTL003",
+                          "precio": 80.00,
+                          "unidades": 2
+                      },
+                      {
+                          "nombre_producto": "Camiseta",
+                          "referencia": "CMS004",
+                          "precio": 40.00,
+                          "unidades": 3
+                      }
+                  ]
+              }
+            },
+            {
+              
+                "nombre": "Marina",
+                "apellidos": "Ruiz",
+                "telefono": "123789456",
+                "direccion": {
+                    "calle": "Calle Sol 789",
+                    "ciudad": "Sevilla",
+                    "codigo_postal": "41002",
+                    "provincia": "Sevilla"
+                },
+                "correo_electronico": "marina@example.com",
+                "fecha_inclusion": "2022-02-10",
+                "pedido": {
+                    "numero_pedido": "0018",
+                    "fecha_compra": "2022-03-05",
+                    "fecha_entrega": "2022-03-10",
+                    "total_factura": 150.00,
+                    "productos": [
+                        {
+                            "nombre_producto": "Falda",
+                            "referencia": "FLD002",
+                            "precio": 50.00,
+                            "unidades": 3
+                        }
+                    ]
+                }
+              },
+              {
+                
+                  "nombre": "Marina",
+                  "apellidos": "Ruiz",
+                  "telefono": "123789456",
+                  "direccion": {
+                      "calle": "Calle Sol 789",
+                      "ciudad": "Sevilla",
+                      "codigo_postal": "41002",
+                      "provincia": "Sevilla"
+                  },
+                  "correo_electronico": "marina@example.com",
+                  "fecha_inclusion": "2022-02-10",
+                  "pedido": {
+                      "numero_pedido": "0018",
+                      "fecha_compra": "2022-03-05",
+                      "fecha_entrega": "2022-03-10",
+                      "total_factura": 150.00,
+                      "productos": [
+                          {
+                              "nombre_producto": "Falda",
+                              "referencia": "FLD002",
+                              "precio": 50.00,
+                              "unidades": 3
+                          }
+                      ]
+                  }
+                },
+                {
+                  
+                    "nombre": "Javier",
+                    "apellidos": "Santos",
+                    "telefono": "789123456",
+                    "direccion": {
+                        "calle": "Calle Mayor 123",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46002",
+                        "provincia": "Valencia"
+                    },
+                    "correo_electronico": "javier@example.com",
+                    "fecha_inclusion": "2022-03-05",
+                    "pedido": {
+                        "numero_pedido": "0019",
+                        "fecha_compra": "2022-03-20",
+                        "fecha_entrega": "2022-03-25",
+                        "total_factura": 260.00,
+                        "productos": [
+                            {
+                                "nombre_producto": "Abrigo",
+                                "referencia": "ABG003",
+                                "precio": 120.00,
+                                "unidades": 1
+                            },
+                            {
+                                "nombre_producto": "Bufanda",
+                                "referencia": "BFD003",
+                                "precio": 70.00,
+                                "unidades": 2
+                            }
+                        ]
+                    }
+                  },
+                  {
+                    
+                      "nombre": "Sara",
+                      "apellidos": "López",
+                      "telefono": "456321789",
+                      "direccion": {
+                          "calle": "Calle Gran Vía 789",
+                          "ciudad": "Bilbao",
+                          "codigo_postal": "48002",
+                          "provincia": "Vizcaya"
+                      },
+                      "correo_electronico": "sara@example.com",
+                      "fecha_inclusion": "2022-03-20",
+                      "pedido": {
+                          "numero_pedido": "0020",
+                          "fecha_compra": "2022-04-05",
+                          "fecha_entrega": "2022-04-10",
+                          "total_factura": 180.00,
+                          "productos": [
+                              {
+                                  "nombre_producto": "Camiseta",
+                                  "referencia": "CMS005",
+                                  "precio": 60.00,
+                                  "unidades": 3
+                              }
+                          ]
+                      }
+                    },
+                    {
+                      
+                        "nombre": "Alberto",
+                        "apellidos": "Martínez",
+                        "telefono": "987654321",
+                        "direccion": {
+                            "calle": "Calle Mayor 789",
+                            "ciudad": "Madrid",
+                            "codigo_postal": "28001",
+                            "provincia": "Madrid"
+                        },
+                        "correo_electronico": "alberto@example.com",
+                        "fecha_inclusion": "2022-04-05",
+                        "pedido": {
+                            "numero_pedido": "0021",
+                            "fecha_compra": "2022-04-20",
+                            "fecha_entrega": "2022-04-25",
+                            "total_factura": 210.00,
+                            "productos": [
+                                {
+                                    "nombre_producto": "Zapatos",
+                                    "referencia": "ZP003",
+                                    "precio": 70.00,
+                                    "unidades": 3
+                                }
+                            ]
+                        }
+                      },
+                      {
+                        
+                          "nombre": "Alberto",
+                          "apellidos": "Martínez",
+                          "telefono": "987654321",
+                          "direccion": {
+                              "calle": "Calle Mayor 789",
+                              "ciudad": "Madrid",
+                              "codigo_postal": "28001",
+                              "provincia": "Madrid"
+                          },
+                          "correo_electronico": "alberto@example.com",
+                          "fecha_inclusion": "2022-04-05",
+                          "pedido": {
+                              "numero_pedido": "0021",
+                              "fecha_compra": "2022-04-20",
+                              "fecha_entrega": "2022-04-25",
+                              "total_factura": 210.00,
+                              "productos": [
+                                  {
+                                      "nombre_producto": "Zapatos",
+                                      "referencia": "ZP003",
+                                      "precio": 70.00,
+                                      "unidades": 3
+                                  }
+                              ]
+                          }
+                        },
+                        {
+                          
+                            "nombre": "Daniel",
+                            "apellidos": "García",
+                            "telefono": "789654321",
+                            "direccion": {
+                                "calle": "Calle Mayor 456",
+                                "ciudad": "Madrid",
+                                "codigo_postal": "28001",
+                                "provincia": "Madrid"
+                            },
+                            "correo_electronico": "daniel@example.com",
+                            "fecha_inclusion": "2022-05-10",
+                            "pedido": {
+                                "numero_pedido": "0023",
+                                "fecha_compra": "2022-05-20",
+                                "fecha_entrega": "2022-05-25",
+                                "total_factura": 180.00,
+                                "productos": [
+                                    {
+                                        "nombre_producto": "Camisa",
+                                        "referencia": "CMS006",
+                                        "precio": 60.00,
+                                        "unidades": 3
+                                    }
+                                ]
+                            }
+                          },
+                          {
+                            
+                              "nombre": "Lucía",
+                              "apellidos": "Fernández",
+                              "telefono": "321987654",
+                              "direccion": {
+                                  "calle": "Calle Sol 789",
+                                  "ciudad": "Sevilla",
+                                  "codigo_postal": "41001",
+                                  "provincia": "Sevilla"
+                              },
+                              "correo_electronico": "lucia@example.com",
+                              "fecha_inclusion": "2022-05-20",
+                              "pedido": {
+                                  "numero_pedido": "0024",
+                                  "fecha_compra": "2022-06-05",
+                                  "fecha_entrega": "2022-06-10",
+                                  "total_factura": 250.00,
+                                  "productos": [
+                                      {
+                                          "nombre_producto": "Vestido",
+                                          "referencia": "VSTD005",
+                                          "precio": 100.00,
+                                          "unidades": 2
+                                      },
+                                      {
+                                          "nombre_producto": "Bolso",
+                                          "referencia": "BLS002",
+                                          "precio": 75.00,
+                                          "unidades": 1
+                                      }
+                                  ]
+                              }  
+                              }
+
+                     ],
+          "trimestre 4" : [
+                        {      
+                                "nombre": "Marta",
+                                "apellidos": "Martín",
+                                "telefono": "654321987",
+                                "direccion": {
+                                    "calle": "Calle Mayor 123",
+                                    "ciudad": "Valencia",
+                                    "codigo_postal": "46001",
+                                    "provincia": "Valencia"
+                                },
+                                "correo_electronico": "marta@example.com",
+                                "fecha_inclusion": "2022-06-05",
+                                "pedido": {
+                                    "numero_pedido": "0025",
+                                    "fecha_compra": "2022-06-20",
+                                    "fecha_entrega": "2022-06-25",
+                                    "total_factura": 200.00,
+                                    "productos": [
+                                        {
+                                            "nombre_producto": "Pantalón",
+                                            "referencia": "PTL004",
+                                            "precio": 80.00,
+                                            "unidades": 2
+                                        }
+                                    ]
+                                }
+                              },
+                              {
+                                
+                                  "nombre": "Pedro",
+                                  "apellidos": "Gómez",
+                                  "telefono": "987123654",
+                                  "direccion": {
+                                      "calle": "Calle Gran Vía 456",
+                                      "ciudad": "Barcelona",
+                                      "codigo_postal": "08001",
+                                      "provincia": "Barcelona"
+                                  },
+                                  "correo_electronico": "pedro@example.com",
+                                  "fecha_inclusion": "2022-06-20",
+                                  "pedido": {
+                                      "numero_pedido": "0026",
+                                      "fecha_compra": "2022-07-05",
+                                      "fecha_entrega": "2022-07-10",
+                                      "total_factura": 220.00,
+                                      "productos": [
+                                          {
+                                              "nombre_producto": "Falda",
+                                              "referencia": "FLD003",
+                                              "precio": 90.00,
+                                              "unidades": 2
+                                          },
+                                          {
+                                              "nombre_producto": "Camiseta",
+                                              "referencia": "CMS007",
+                                              "precio": 40.00,
+                                              "unidades": 1
+                                          }
+                                      ]
+                                  }
+                                },
+                                {
+                                  
+                                    "nombre": "Isabel",
+                                    "apellidos": "Díaz",
+                                    "telefono": "654789321",
+                                    "direccion": {
+                                        "calle": "Calle Mayor 456",
+                                        "ciudad": "Madrid",
+                                        "codigo_postal": "28001",
+                                        "provincia": "Madrid"
+                                    },
+                                    "correo_electronico": "isabel@example.com",
+                                    "fecha_inclusion": "2022-07-10",
+                                    "pedido": {
+                                        "numero_pedido": "0027",
+                                        "fecha_compra": "2022-07-20",
+                                        "fecha_entrega": "2022-07-25",
+                                        "total_factura": 180.00,
+                                        "productos": [
+                                            {
+                                                "nombre_producto": "Camisa",
+                                                "referencia": "CMS008",
+                                                "precio": 60.00,
+                                                "unidades": 3
+                                            }
+                                        ]
+                                    }
+                                  },
+                                  {
+                                    
+                                      "nombre": "Pablo",
+                                      "apellidos": "Martínez",
+                                      "telefono": "987321654",
+                                      "direccion": {
+                                          "calle": "Calle Gran Vía 789",
+                                          "ciudad": "Barcelona",
+                                          "codigo_postal": "08002",
+                                          "provincia": "Barcelona"
+                                      },
+                                      "correo_electronico": "pablo@example.com",
+                                      "fecha_inclusion": "2022-07-20",
+                                      "pedido": {
+                                          "numero_pedido": "0028",
+                                          "fecha_compra": "2022-08-05",
+                                          "fecha_entrega": "2022-08-10",
+                                          "total_factura": 220.00,
+                                          "productos": [
+                                              {
+                                                  "nombre_producto": "Jersey",
+                                                  "referencia": "JRS002",
+                                                  "precio": 80.00,
+                                                  "unidades": 2
+                                              },
+                                              {
+                                                  "nombre_producto": "Bufanda",
+                                                  "referencia": "BFD004",
+                                                  "precio": 40.00,
+                                                  "unidades": 2
+                                              }
+                                          ]
+                                      }
+                                    },
+                                    {
+                                      
+                                        "nombre": "Carmen",
+                                        "apellidos": "López",
+                                        "telefono": "321654987",
+                                        "direccion": {
+                                            "calle": "Calle Mayor 123",
+                                            "ciudad": "Valencia",
+                                            "codigo_postal": "46001",
+                                            "provincia": "Valencia"
+                                        },
+                                        "correo_electronico": "carmen@example.com",
+                                        "fecha_inclusion": "2022-08-05",
+                                        "pedido": {
+                                            "numero_pedido": "0029",
+                                            "fecha_compra": "2022-08-20",
+                                            "fecha_entrega": "2022-08-25",
+                                            "total_factura": 250.00,
+                                            "productos": [
+                                                {
+                                                    "nombre_producto": "Vestido",
+                                                    "referencia": "VSTD006",
+                                                    "precio": 120.00,
+                                                    "unidades": 1
+                                                },
+                                                {
+                                                    "nombre_producto": "Zapatos",
+                                                    "referencia": "ZP004",
+                                                    "precio": 65.00,
+                                                    "unidades": 1
+                                                }
+                                            ]
+                                        }
+                                      },
+                                      {
+                                        
+                                          "nombre": "Miguel",
+                                          "apellidos": "González",
+                                          "telefono": "456987321",
+                                          "direccion": {
+                                              "calle": "Calle Sol 456",
+                                              "ciudad": "Sevilla",
+                                              "codigo_postal": "41001",
+                                              "provincia": "Sevilla"
+                                          },
+                                          "correo_electronico": "miguel@example.com",
+                                          "fecha_inclusion": "2022-08-20",
+                                          "pedido": {
+                                              "numero_pedido": "0030",
+                                              "fecha_compra": "2022-09-05",
+                                              "fecha_entrega": "2022-09-10",
+                                              "total_factura": 180.00,
+                                              "productos": [
+                                                  {
+                                                      "nombre_producto": "Camiseta",
+                                                      "referencia": "CMS009",
+                                                      "precio": 60.00,
+                                                      "unidades": 3
+                                                  }
+                                              ]
+                                          }
+                                        },
+                                        {
+                                          
+                                            "nombre": "Eva",
+                                            "apellidos": "Sánchez",
+                                            "telefono": "789654123",
+                                            "direccion": {
+                                                "calle": "Calle Gran Vía 789",
+                                                "ciudad": "Madrid",
+                                                "codigo_postal": "28001",
+                                                "provincia": "Madrid"
+                                            },
+                                            "correo_electronico": "eva@example.com",
+                                            "fecha_inclusion": "2022-09-05",
+                                            "pedido": {
+                                                "numero_pedido": "0031",
+                                                "fecha_compra": "2022-09-20",
+                                                "fecha_entrega": "2022-09-25",
+                                                "total_factura": 210.00,
+                                                "productos": [
+                                                    {
+                                                        "nombre_producto": "Zapatos",
+                                                        "referencia": "ZP005",
+                                                        "precio": 70.00,
+                                                        "unidades": 3
+                                                    }
+                                                ]
+                                            }
+                                          },
+                                          {
+                                            
+                                              "nombre": "Luisa",
+                                              "apellidos": "Hernández",
+                                              "telefono": "987456321",
+                                              "direccion": {
+                                                  "calle": "Calle Mayor 456",
+                                                  "ciudad": "Barcelona",
+                                                  "codigo_postal": "08001",
+                                                  "provincia": "Barcelona"
+                                              },
+                                              "correo_electronico": "luisa@example.com",
+                                              "fecha_inclusion": "2022-09-20",
+                                              "pedido": {
+                                                  "numero_pedido": "0032",
+                                                  "fecha_compra": "2022-10-05",
+                                                  "fecha_entrega": "2022-10-10",
+                                                  "total_factura": 220.00,
+                                                  "productos": [
+                                                      {
+                                                          "nombre_producto": "Falda",
+                                                          "referencia": "FLD004",
+                                                          "precio": 90.00,
+                                                          "unidades": 2
+                                                      },
+                                                      {
+                                                          "nombre_producto": "Camiseta",
+                                                          "referencia": "CMS010",
+                                                          "precio": 40.00,
+                                                          "unidades": 1
+                                                      }
+                                                  ]
+                                              }
+                                            },
+                                            {
+                                              
+                                                "nombre": "Jorge",
+                                                "apellidos": "Gómez",
+                                                "telefono": "654321987",
+                                                "direccion": {
+                                                    "calle": "Calle Gran Vía 789",
+                                                    "ciudad": "Madrid",
+                                                    "codigo_postal": "28002",
+                                                    "provincia": "Madrid"
+                                                },
+                                                "correo_electronico": "jorge@example.com",
+                                                "fecha_inclusion": "2022-10-05",
+                                                "pedido": {
+                                                    "numero_pedido": "0033",
+                                                    "fecha_compra": "2022-10-20",
+                                                    "fecha_entrega": "2022-10-25",
+                                                    "total_factura": 250.00,
+                                                    "productos": [
+                                                        {
+                                                            "nombre_producto": "Vestido",
+                                                            "referencia": "VSTD007",
+                                                            "precio": 100.00,
+                                                            "unidades": 2
+                                                        },
+                                                        {
+                                                            "nombre_producto": "Bolso",
+                                                            "referencia": "BLS003",
+                                                            "precio": 75.00,
+                                                            "unidades": 1
+                                                        }
+                                                    ]
+                                                }
+                                              },
+                                              {
+                                                
+                                                  "nombre": "Natalia",
+                                                  "apellidos": "Martínez",
+                                                  "telefono": "789654123",
+                                                  "direccion": {
+                                                      "calle": "Calle Sol 789",
+                                                      "ciudad": "Valencia",
+                                                      "codigo_postal": "46002",
+                                                      "provincia": "Valencia"
+                                                  },
+                                                  "correo_electronico": "natalia@example.com",
+                                                  "fecha_inclusion": "2022-10-20",
+                                                  "pedido": {
+                                                      "numero_pedido": "0034",
+                                                      "fecha_compra": "2022-11-05",
+                                                      "fecha_entrega": "2022-11-10",
+                                                      "total_factura": 180.00,
+                                                      "productos": [
+                                                          {
+                                                              "nombre_producto": "Camiseta",
+                                                              "referencia": "CMS011",
+                                                              "precio": 60.00,
+                                                              "unidades": 3
+                                                          }
+                                                      ]
+                                                  }
+                                                },
+                                                {
+                                                  
+                                                    "nombre": "Sergio",
+                                                    "apellidos": "Fernández",
+                                                    "telefono": "321987654",
+                                                    "direccion": {
+                                                        "calle": "Calle Mayor 123",
+                                                        "ciudad": "Sevilla",
+                                                        "codigo_postal": "41002",
+                                                        "provincia": "Sevilla"
+                                                    },
+                                                    "correo_electronico": "sergio@example.com",
+                                                    "fecha_inclusion": "2022-11-05",
+                                                    "pedido": {
+                                                        "numero_pedido": "0035",
+                                                        "fecha_compra": "2022-11-20",
+                                                        "fecha_entrega": "2022-11-25",
+                                                        "total_factura": 200.00,
+                                                        "productos": [
+                                                            {
+                                                                "nombre_producto": "Pantalón",
+                                                                "referencia": "PTL005",
+                                                                "precio": 80.00,
+                                                                "unidades": 2
+                                                            }
+                                                        ]
+                                                    }
+                                                  },
+                                                  {
+                                                    
+                                                      "nombre": "Laura",
+                                                      "apellidos": "Sánchez",
+                                                      "telefono": "987321654",
+                                                      "direccion": {
+                                                          "calle": "Calle Gran Vía 456",
+                                                          "ciudad": "Barcelona",
+                                                          "codigo_postal": "08002",
+                                                          "provincia": "Barcelona"
+                                                      },
+                                                      "correo_electronico": "laura@example.com",
+                                                      "fecha_inclusion": "2022-11-20",
+                                                      "pedido": {
+                                                          "numero_pedido": "0036",
+                                                          "fecha_compra": "2022-12-05",
+                                                          "fecha_entrega": "2022-12-10",
+                                                          "total_factura": 220.00,
+                                                          "productos": [
+                                                              {
+                                                                  "nombre_producto": "Jersey",
+                                                                  "referencia": "JRS003",
+                                                                  "precio": 90.00,
+                                                                  "unidades": 2
+                                                              },
+                                                              {
+                                                                  "nombre_producto": "Bufanda",
+                                                                  "referencia": "BFD005",
+                                                                  "precio": 40.00,
+                                                                  "unidades": 2
+                                                              }
+                                                          ]
+                                                      }
+                                                  }
+      ]
+      },
+      "2022": {
+        "trimestre 1" : [
+          {
+            "nombre": "Manuel",
+            "apellidos": "Martínez",
+            "telefono": "654987321",
+            "direccion": {
+                "calle": "Calle Mayor 456",
+                "ciudad": "Madrid",
+                "codigo_postal": "28001",
+                "provincia": "Madrid"
+            },
+            "correo_electronico": "manuel@example.com",
+            "fecha_inclusion": "2022-12-05",
+            "pedido": {
+                "numero_pedido": "0037",
+                "fecha_compra": "2022-12-20",
+                "fecha_entrega": "2022-12-25",
+                "total_factura": 180.00,
+                "productos": [
+                    {
+                        "nombre_producto": "Camisa",
+                        "referencia": "CMS012",
+                        "precio": 60.00,
+                        "unidades": 3
+                    }
+                ]
+            }
+          },
+          {
+              "nombre": "María",
+              "apellidos": "García",
+              "telefono": "987321654",
+              "direccion": {
+                  "calle": "Calle Gran Vía 789",
+                  "ciudad": "Barcelona",
+                  "codigo_postal": "08001",
+                  "provincia": "Barcelona"
+              },
+              "correo_electronico": "maria@example.com",
+              "fecha_inclusion": "2022-12-20",
+              "pedido": {
+                  "numero_pedido": "0038",
+                  "fecha_compra": "2023-01-05",
+                  "fecha_entrega": "2023-01-10",
+                  "total_factura": 220.00,
+                  "productos": [
+                      {
+                          "nombre_producto": "Jersey",
+                          "referencia": "JRS004",
+                          "precio": 80.00,
+                          "unidades": 2
+                      },
+                      {
+                          "nombre_producto": "Bufanda",
+                          "referencia": "BFD006",
+                          "precio": 40.00,
+                          "unidades": 2
+                      }
+                  ]
+              }
+            },
+            {                           
+                "nombre": "Juan",
+                "apellidos": "Sánchez",
+                "telefono": "654123789",
+                "direccion": {
+                    "calle": "Calle Sol 789",
+                    "ciudad": "Valencia",
+                    "codigo_postal": "46002",
+                    "provincia": "Valencia"
+                },
+                "correo_electronico": "juan@example.com",
+                "fecha_inclusion": "2023-01-05",
+                "pedido": {
+                    "numero_pedido": "0039",
+                    "fecha_compra": "2023-01-20",
+                    "fecha_entrega": "2023-01-25",
+                    "total_factura": 250.00,
+                    "productos": [
+                        {
+                            "nombre_producto": "Vestido",
+                            "referencia": "VSTD008",
+                            "precio": 100.00,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Zapatos",
+                            "referencia": "ZP006",
+                            "precio": 75.00,
+                            "unidades": 1
+                        }
+                    ]
+                }
+              },
+              {
+                
+                  "nombre": "Ana",
+                  "apellidos": "Gómez",
+                  "telefono": "789456123",
+                  "direccion": {
+                      "calle": "Calle Mayor 123",
+                      "ciudad": "Sevilla",
+                      "codigo_postal": "41001",
+                      "provincia": "Sevilla"
+                  },
+                  "correo_electronico": "ana@example.com",
+                  "fecha_inclusion": "2023-01-20",
+                  "pedido": {
+                      "numero_pedido": "0040",
+                      "fecha_compra": "2023-02-05",
+                      "fecha_entrega": "2023-02-10",
+                      "total_factura": 180.00,
+                      "productos": [
+                          {
+                              "nombre_producto": "Camiseta",
+                              "referencia": "CMS013",
+                              "precio": 60.00,
+                              "unidades": 3
+                          }
+                      ]
+                  }
+                },
+                {
+                    "nombre": "Ana",
+                    "apellidos": "Gómez",
+                    "telefono": "789456123",
+                    "direccion": {
+                        "calle": "Calle Mayor 123",
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "41001",
+                        "provincia": "Sevilla"
+                    },
+                    "correo_electronico": "ana@example.com",
+                    "fecha_inclusion": "2023-01-20",
+                    "pedido": {
+                        "numero_pedido": "0040",
+                        "fecha_compra": "2023-02-05",
+                        "fecha_entrega": "2023-02-10",
+                        "total_factura": 180.00,
+                        "productos": [
+                            {
+                                "nombre_producto": "Camiseta",
+                                "referencia": "CMS013",
+                                "precio": 60.00,
+                                "unidades": 3
+                            }
+                        ]
+                    }
+                  },
+                  {
+                      "nombre": "Elena",
+                      "apellidos": "Hernández",
+                      "telefono": "321654987",
+                      "direccion": {
+                          "calle": "Calle Gran Vía 456",
+                          "ciudad": "Barcelona",
+                          "codigo_postal": "08002",
+                          "provincia": "Barcelona"
+                      },
+                      "correo_electronico": "elena@example.com",
+                      "fecha_inclusion": "2023-02-05",
+                      "pedido": {
+                          "numero_pedido": "0041",
+                          "fecha_compra": "2023-02-20",
+                          "fecha_entrega": "2023-02-25",
+                          "total_factura": 210.00,
+                          "productos": [
+                              {
+                                  "nombre_producto": "Zapatos",
+                                  "referencia": "ZP007",
+                                  "precio": 70.00,
+                                  "unidades": 3
+                              }
+                          ]
+                      }
+                    },
+                    {
+                        "nombre": "Pedro",
+                        "apellidos": "Martínez",
+                        "telefono": "654987321",
+                        "direccion": {
+                            "calle": "Calle Mayor 456",
+                            "ciudad": "Madrid",
+                            "codigo_postal": "28001",
+                            "provincia": "Madrid"
+                        },
+                        "correo_electronico": "pedro@example.com",
+                        "fecha_inclusion": "2023-02-20",
+                        "pedido": {
+                            "numero_pedido": "0042",
+                            "fecha_compra": "2023-03-05",
+                            "fecha_entrega": "2023-03-10",
+                            "total_factura": 180.00,
+                            "productos": [
+                                {
+                                    "nombre_producto": "Camisa",
+                                    "referencia": "CMS014",
+                                    "precio": 60.00,
+                                    "unidades": 3
+                                }
+                            ]
+                        }
+                      },
+                      {
+                          "nombre": "Laura",
+                          "apellidos": "González",
+                          "telefono": "987654321",
+                          "direccion": {
+                              "calle": "Calle Gran Vía 789",
+                              "ciudad": "Barcelona",
+                              "codigo_postal": "08001",
+                              "provincia": "Barcelona"
+                          },
+                          "correo_electronico": "laura@example.com",
+                          "fecha_inclusion": "2023-03-05",
+                          "pedido": {
+                              "numero_pedido": "0043",
+                              "fecha_compra": "2023-03-20",
+                              "fecha_entrega": "2023-03-25",
+                              "total_factura": 220.00,
+                              "productos": [
+                                  {
+                                      "nombre_producto": "Jersey",
+                                      "referencia": "JRS005",
+                                      "precio": 80.00,
+                                      "unidades": 2
+                                  },
+                                  {
+                                      "nombre_producto": "Bufanda",
+                                      "referencia": "BFD007",
+                                      "precio": 40.00,
+                                      "unidades": 2
+                                  }
+                              ]
+                          }
+                        },
+                        {
+                            "nombre": "Andrés",
+                            "apellidos": "Sánchez",
+                            "telefono": "654321987",
+                            "direccion": {
+                                "calle": "Calle Sol 789",
+                                "ciudad": "Valencia",
+                                "codigo_postal": "46002",
+                                "provincia": "Valencia"
+                            },
+                            "correo_electronico": "andres@example.com",
+                            "fecha_inclusion": "2023-03-20",
+                            "pedido": {
+                                "numero_pedido": "0044",
+                                "fecha_compra": "2023-04-05",
+                                "fecha_entrega": "2023-04-10",
+                                "total_factura": 250.00,
+                                "productos": [
+                                    {
+                                        "nombre_producto": "Vestido",
+                                        "referencia": "VSTD009",
+                                        "precio": 100.00,
+                                        "unidades": 2
+                                    },
+                                    {
+                                        "nombre_producto": "Zapatos",
+                                        "referencia": "ZP008",
+                                        "precio": 75.00,
+                                        "unidades": 1
+                                    }
+                                ]
+                            }
+                          },
+                          {
+                              "nombre": "María",
+                              "apellidos": "Hernández",
+                              "telefono": "789456123",
+                              "direccion": {
+                                  "calle": "Calle Mayor 123",
+                                  "ciudad": "Sevilla",
+                                  "codigo_postal": "41001",
+                                  "provincia": "Sevilla"
+                              },
+                              "correo_electronico": "maria@example.com",
+                              "fecha_inclusion": "2023-04-05",
+                              "pedido": {
+                                  "numero_pedido": "0045",
+                                  "fecha_compra": "2023-04-20",
+                                  "fecha_entrega": "2023-04-25",
+                                  "total_factura": 180.00,
+                                  "productos": [
+                                      {
+                                          "nombre_producto": "Camiseta",
+                                          "referencia": "CMS015",
+                                          "precio": 60.00,
+                                          "unidades": 3
+                                      }
+                                  ]
+                              }
+                            },
+                            {
+                              
+                                "nombre": "David",
+                                "apellidos": "Martínez",
+                                "telefono": "321654987",
+                                "direccion": {
+                                    "calle": "Calle Gran Vía 456",
+                                    "ciudad": "Barcelona",
+                                    "codigo_postal": "08002",
+                                    "provincia": "Barcelona"
+                                },
+                                "correo_electronico": "david@example.com",
+                                "fecha_inclusion": "2023-04-20",
+                                "pedido": {
+                                    "numero_pedido": "0046",
+                                    "fecha_compra": "2023-05-05",
+                                    "fecha_entrega": "2023-05-10",
+                                    "total_factura": 210.00,
+                                    "productos": [
+                                        {
+                                            "nombre_producto": "Zapatos",
+                                            "referencia": "ZP009",
+                                            "precio": 70.00,
+                                            "unidades": 3
+                                        }
+                                    ]
+                                }
+                            }
+                                                                                       
+        ],
+        "trimestre 2" : [
+          {
+            "nombre": "Sara",
+            "apellidos": "López",
+            "telefono": "654123789",
+            "direccion": {
+                "calle": "Calle Mayor 456",
+                "ciudad": "Madrid",
+                "codigo_postal": "28001",
+                "provincia": "Madrid"
+            },
+            "correo_electronico": "sara@example.com",
+            "fecha_inclusion": "2023-05-05",
+            "pedido": {
+                "numero_pedido": "0047",
+                "fecha_compra": "2023-05-20",
+                "fecha_entrega": "2023-05-25",
+                "total_factura": 180.00,
+                "productos": [
+                    {
+                        "nombre_producto": "Camisa",
+                        "referencia": "CMS016",
+                        "precio": 60.00,
+                        "unidades": 3
+                    }
+                ]
+            }
+          },
+          {
+              "nombre": "Daniel",
+              "apellidos": "González",
+              "telefono": "987654321",
+              "direccion": {
+                  "calle": "Calle Gran Vía 789",
+                  "ciudad": "Barcelona",
+                  "codigo_postal": "08001",
+                  "provincia": "Barcelona"
+              },
+              "correo_electronico": "daniel@example.com",
+              "fecha_inclusion": "2023-05-20",
+              "pedido": {
+                  "numero_pedido": "0048",
+                  "fecha_compra": "2023-06-05",
+                  "fecha_entrega": "2023-06-10",
+                  "total_factura": 220.00,
+                  "productos": [
+                      {
+                          "nombre_producto": "Jersey",
+                          "referencia": "JRS006",
+                          "precio": 80.00,
+                          "unidades": 2
+                      },
+                      {
+                          "nombre_producto": "Bufanda",
+                          "referencia": "BFD008",
+                          "precio": 40.00,
+                          "unidades": 2
+                      }
+                  ]
+              }
+            },
+            {
+              "nombre": "Elena",
+              "apellidos": "Fernández",
+              "telefono": "321987654",
+              "direccion": {
+                  "calle": "Calle Sol 789",
+                  "ciudad": "Valencia",
+                  "codigo_postal": "46002",
+                  "provincia": "Valencia"
+              },
+              "correo_electronico": "elena@example.com",
+              "fecha_inclusion": "2023-06-05",
+              "pedido": {
+                  "numero_pedido": "0049",
+                  "fecha_compra": "2023-06-20",
+                  "fecha_entrega": "2023-06-25",
+                  "total_factura": 250.00,
+                  "productos": [
+                      {
+                          "nombre_producto": "Vestido",
+                          "referencia": "VSTD010",
+                          "precio": 100.00,
+                          "unidades": 2
+                      },
+                      {
+                          "nombre_producto": "Zapatos",
+                          "referencia": "ZP010",
+                          "precio": 75.00,
+                          "unidades": 1
+                      }
+                  ]
+              }
+            },
+            {
+               "nombre": "Juan",
+    "apellidos": "Martínez",
+    "telefono": "789456123",
+    "direccion": {
+        "calle": "Calle Mayor 123",
+        "ciudad": "Sevilla",
+        "codigo_postal": "41001",
+        "provincia": "Sevilla"
+    },
+    "correo_electronico": "juan@example.com",
+    "fecha_inclusion": "2023-06-20",
+    "pedido": {
+        "numero_pedido": "0050",
+        "fecha_compra": "2023-07-05",
+        "fecha_entrega": "2023-07-10",
+        "total_factura": 180.00,
+        "productos": [
+            {
+                "nombre_producto": "Camiseta",
+                "referencia": "CMS017",
+                "precio": 60.00,
+                "unidades": 3
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Juan",
+    "apellidos": "Martínez",
+    "telefono": "789456123",
+    "direccion": {
+        "calle": "Calle Mayor 123",
+        "ciudad": "Sevilla",
+        "codigo_postal": "41001",
+        "provincia": "Sevilla"
+    },
+    "correo_electronico": "juan@example.com",
+    "fecha_inclusion": "2023-06-20",
+    "pedido": {
+        "numero_pedido": "0050",
+        "fecha_compra": "2023-07-05",
+        "fecha_entrega": "2023-07-10",
+        "total_factura": 180.00,
+        "productos": [
+            {
+                "nombre_producto": "Camiseta",
+                "referencia": "CMS017",
+                "precio": 60.00,
+                "unidades": 3
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Marta",
+    "apellidos": "Hernández",
+    "telefono": "654321987",
+    "direccion": {
+        "calle": "Calle Gran Vía 456",
+        "ciudad": "Barcelona",
+        "codigo_postal": "08002",
+        "provincia": "Barcelona"
+    },
+    "correo_electronico": "marta@example.com",
+    "fecha_inclusion": "2023-07-05",
+    "pedido": {
+        "numero_pedido": "0051",
+        "fecha_compra": "2023-07-20",
+        "fecha_entrega": "2023-07-25",
+        "total_factura": 210.00,
+        "productos": [
+            {
+                "nombre_producto": "Zapatos",
+                "referencia": "ZP011",
+                "precio": 70.00,
+                "unidades": 3
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Carlos",
+    "apellidos": "López",
+    "telefono": "654987321",
+    "direccion": {
+        "calle": "Calle Mayor 456",
+        "ciudad": "Madrid",
+        "codigo_postal": "28001",
+        "provincia": "Madrid"
+    },
+    "correo_electronico": "carlos@example.com",
+    "fecha_inclusion": "2023-07-20",
+    "pedido": {
+        "numero_pedido": "0052",
+        "fecha_compra": "2023-08-05",
+        "fecha_entrega": "2023-08-10",
+        "total_factura": 180.00,
+        "productos": [
+            {
+                "nombre_producto": "Camisa",
+                "referencia": "CMS018",
+                "precio": 60.00,
+                "unidades": 3
+            }
+        ]
+    }
+  },
+  {
+      "nombre": "Lucía",
+      "apellidos": "García",
+      "telefono": "987654321",
+      "direccion": {
+          "calle": "Calle Gran Vía 789",
+          "ciudad": "Barcelona",
+          "codigo_postal": "08001",
+          "provincia": "Barcelona"
+      },
+      "correo_electronico": "lucia@example.com",
+      "fecha_inclusion": "2023-08-05",
+      "pedido": {
+          "numero_pedido": "0053",
+          "fecha_compra": "2023-08-20",
+          "fecha_entrega": "2023-08-25",
+          "total_factura": 220.00,
+          "productos": [
+              {
+                  "nombre_producto": "Jersey",
+                  "referencia": "JRS007",
+                  "precio": 80.00,
+                  "unidades": 2
+              },
+              {
+                  "nombre_producto": "Bufanda",
+                  "referencia": "BFD009",
+                  "precio": 40.00,
+                  "unidades": 2
+              }
+          ]
+      }
+    },
+    {
+      "nombre": "Roberto",
+      "apellidos": "Fernández",
+      "telefono": "321987654",
+      "direccion": {
+          "calle": "Calle Sol 789",
+          "ciudad": "Valencia",
+          "codigo_postal": "46002",
+          "provincia": "Valencia"
+      },
+      "correo_electronico": "roberto@example.com",
+      "fecha_inclusion": "2023-08-20",
+      "pedido": {
+          "numero_pedido": "0054",
+          "fecha_compra": "2023-09-05",
+          "fecha_entrega": "2023-09-10",
+          "total_factura": 250.00,
+          "productos": [
+              {
+                  "nombre_producto": "Vestido",
+                  "referencia": "VSTD011",
+                  "precio": 100.00,
+                  "unidades": 2
+              },
+              {
+                  "nombre_producto": "Zapatos",
+                  "referencia": "ZP012",
+                  "precio": 75.00,
+                  "unidades": 1
+              }
+          ]
+      }
+    },
+    {
+      "nombre": "Sonia",
+    "apellidos": "Martínez",
+    "telefono": "789456123",
+    "direccion": {
+        "calle": "Calle Mayor 123",
+        "ciudad": "Sevilla",
+        "codigo_postal": "41001",
+        "provincia": "Sevilla"
+    },
+    "correo_electronico": "sonia@example.com",
+    "fecha_inclusion": "2023-09-05",
+    "pedido": {
+        "numero_pedido": "0055",
+        "fecha_compra": "2023-09-20",
+        "fecha_entrega": "2023-09-25",
+        "total_factura": 180.00,
+        "productos": [
+            {
+                "nombre_producto": "Camiseta",
+                "referencia": "CMS019",
+                "precio": 60.00,
+                "unidades": 3
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Diego",
+    "apellidos": "Hernández",
+    "telefono": "654321987",
+    "direccion": {
+        "calle": "Calle Gran Vía 456",
+        "ciudad": "Barcelona",
+        "codigo_postal": "08002",
+        "provincia": "Barcelona"
+    },
+    "correo_electronico": "diego@example.com",
+    "fecha_inclusion": "2023-09-20",
+    "pedido": {
+        "numero_pedido": "0056",
+        "fecha_compra": "2023-10-05",
+        "fecha_entrega": "2023-10-10",
+        "total_factura": 210.00,
+        "productos": [
+            {
+                "nombre_producto": "Zapatos",
+                "referencia": "ZP013",
+                "precio": 70.00,
+                "unidades": 3
+            }
+        ]
+    }
+  }
+  
+        ],
+          "trimestre 3" : [
+            {
+              "nombre": "Miguel",
+              "apellidos": "Gómez",
+              "telefono": "654987321",
+              "direccion": {
+                  "calle": "Calle Mayor 456",
+                  "ciudad": "Madrid",
+                  "codigo_postal": "28001",
+                  "provincia": "Madrid"
+              },
+              "correo_electronico": "miguel@example.com",
+              "fecha_inclusion": "2023-10-05",
+              "pedido": {
+                  "numero_pedido": "0057",
+                  "fecha_compra": "2023-10-20",
+                  "fecha_entrega": "2023-10-25",
+                  "total_factura": 180.00,
+                  "productos": [
+                      {
+                          "nombre_producto": "Camisa",
+                          "referencia": "CMS020",
+                          "precio": 60.00,
+                          "unidades": 3
+                      }
+                  ]
+              }
+            },
+            {
+              "nombre": "Ana",
+    "apellidos": "López",
+    "telefono": "987654321",
+    "direccion": {
+        "calle": "Calle Gran Vía 789",
+        "ciudad": "Barcelona",
+        "codigo_postal": "08001",
+        "provincia": "Barcelona"
+    },
+    "correo_electronico": "ana@example.com",
+    "fecha_inclusion": "2023-10-20",
+    "pedido": {
+        "numero_pedido": "0058",
+        "fecha_compra": "2023-11-05",
+        "fecha_entrega": "2023-11-10",
+        "total_factura": 220.00,
+        "productos": [
+            {
+                "nombre_producto": "Jersey",
+                "referencia": "JRS008",
+                "precio": 80.00,
+                "unidades": 2
+            },
+            {
+                "nombre_producto": "Bufanda",
+                "referencia": "BFD010",
+                "precio": 40.00,
+                "unidades": 2
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Pedro",
+    "apellidos": "Fernández",
+    "telefono": "321987654",
+    "direccion": {
+        "calle": "Calle Sol 789",
+        "ciudad": "Valencia",
+        "codigo_postal": "46002",
+        "provincia": "Valencia"
+    },
+    "correo_electronico": "pedro@example.com",
+    "fecha_inclusion": "2023-11-05",
+    "pedido": {
+        "numero_pedido": "0059",
+        "fecha_compra": "2023-11-20",
+        "fecha_entrega": "2023-11-25",
+        "total_factura": 250.00,
+        "productos": [
+            {
+                "nombre_producto": "Vestido",
+                "referencia": "VSTD012",
+                "precio": 100.00,
+                "unidades": 2
+            },
+            {
+                "nombre_producto": "Zapatos",
+                "referencia": "ZP014",
+                "precio": 75.00,
+                "unidades": 1
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Laura",
+    "apellidos": "Martínez",
+    "telefono": "789456123",
+    "direccion": {
+        "calle": "Calle Mayor 123",
+        "ciudad": "Sevilla",
+        "codigo_postal": "41001",
+        "provincia": "Sevilla"
+    },
+    "correo_electronico": "laura@example.com",
+    "fecha_inclusion": "2023-11-20",
+    "pedido": {
+        "numero_pedido": "0060",
+        "fecha_compra": "2023-12-05",
+        "fecha_entrega": "2023-12-10",
+        "total_factura": 180.00,
+        "productos": [
+            {
+                "nombre_producto": "Camiseta",
+                "referencia": "CMS021",
+                "precio": 60.00,
+                "unidades": 3
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Diego",
+    "apellidos": "Hernández",
+    "telefono": "654321987",
+    "direccion": {
+        "calle": "Calle Gran Vía 456",
+        "ciudad": "Barcelona",
+        "codigo_postal": "08002",
+        "provincia": "Barcelona"
+    },
+    "correo_electronico": "diego@example.com",
+    "fecha_inclusion": "2023-12-05",
+    "pedido": {
+        "numero_pedido": "0061",
+        "fecha_compra": "2023-12-20",
+        "fecha_entrega": "2023-12-25",
+        "total_factura": 210.00,
+        "productos": [
+            {
+                "nombre_producto": "Zapatos",
+                "referencia": "ZP015",
+                "precio": 70.00,
+                "unidades": 3
+            }
+        ]
+    }
+  },
+  {
+    
+      "nombre": "Elena",
+      "apellidos": "Gómez",
+      "telefono": "654987321",
+      "direccion": {
+          "calle": "Calle Mayor 456",
+          "ciudad": "Madrid",
+          "codigo_postal": "28001",
+          "provincia": "Madrid"
+      },
+      "correo_electronico": "elena@example.com",
+      "fecha_inclusion": "2023-12-20",
+      "pedido": {
+          "numero_pedido": "0062",
+          "fecha_compra": "2024-01-05",
+          "fecha_entrega": "2024-01-10",
+          "total_factura": 180.00,
+          "productos": [
+              {
+                  "nombre_producto": "Camisa",
+                  "referencia": "CMS022",
+                  "precio": 60.00,
+                  "unidades": 3
+              }
+          ]
+      }
+    },
+    {
+      "nombre": "María",
+    "apellidos": "López",
+    "telefono": "987654321",
+    "direccion": {
+        "calle": "Calle Gran Vía 789",
+        "ciudad": "Barcelona",
+        "codigo_postal": "08001",
+        "provincia": "Barcelona"
+    },
+    "correo_electronico": "maria@example.com",
+    "fecha_inclusion": "2024-01-05",
+    "pedido": {
+        "numero_pedido": "0063",
+        "fecha_compra": "2024-01-20",
+        "fecha_entrega": "2024-01-25",
+        "total_factura": 220.00,
+        "productos": [
+            {
+                "nombre_producto": "Jersey",
+                "referencia": "JRS009",
+                "precio": 80.00,
+                "unidades": 2
+            },
+            {
+                "nombre_producto": "Bufanda",
+                "referencia": "BFD011",
+                "precio": 40.00,
+                "unidades": 2
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Andrés",
+    "apellidos": "Sánchez",
+    "telefono": "321987654",
+    "direccion": {
+        "calle": "Calle Sol 789",
+        "ciudad": "Valencia",
+        "codigo_postal": "46002",
+        "provincia": "Valencia"
+    },
+    "correo_electronico": "andres@example.com",
+    "fecha_inclusion": "2024-01-20",
+    "pedido": {
+        "numero_pedido": "0064",
+        "fecha_compra": "2024-02-05",
+        "fecha_entrega": "2024-02-10",
+        "total_factura": 250.00,
+        "productos": [
+            {
+                "nombre_producto": "Vestido",
+                "referencia": "VSTD013",
+                "precio": 100.00,
+                "unidades": 2
+            },
+            {
+                "nombre_producto": "Zapatos",
+                "referencia": "ZP016",
+                "precio": 75.00,
+                "unidades": 1
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Laura",
+    "apellidos": "Martínez",
+    "telefono": "789456123",
+    "direccion": {
+        "calle": "Calle Mayor 123",
+        "ciudad": "Sevilla",
+        "codigo_postal": "41001",
+        "provincia": "Sevilla"
+    },
+    "correo_electronico": "laura@example.com",
+    "fecha_inclusion": "2024-02-05",
+    "pedido": {
+        "numero_pedido": "0065",
+        "fecha_compra": "2024-02-20",
+        "fecha_entrega": "2024-02-25",
+        "total_factura": 180.00,
+        "productos": [
+            {
+                "nombre_producto": "Camiseta",
+                "referencia": "CMS023",
+                "precio": 60.00,
+                "unidades": 3
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Diego",
+    "apellidos": "Hernández",
+    "telefono": "654321987",
+    "direccion": {
+        "calle": "Calle Gran Vía 456",
+        "ciudad": "Barcelona",
+        "codigo_postal": "08002",
+        "provincia": "Barcelona"
+    },
+    "correo_electronico": "diego@example.com",
+    "fecha_inclusion": "2024-02-20",
+    "pedido": {
+        "numero_pedido": "0066",
+        "fecha_compra": "2024-03-05",
+        "fecha_entrega": "2024-03-10",
+        "total_factura": 210.00,
+        "productos": [
+            {
+                "nombre_producto": "Zapatos",
+                "referencia": "ZP017",
+                "precio": 70.00,
+                "unidades": 3
+            }
+        ]
+    }
+  }
+],
+"trimestre 4" : [
+  {
+    "nombre": "Sergio",
+    "apellidos": "García",
+    "telefono": "654987321",
+    "direccion": {
+        "calle": "Calle Mayor 456",
+        "ciudad": "Madrid",
+        "codigo_postal": "28001",
+        "provincia": "Madrid"
+    },
+    "correo_electronico": "sergio@example.com",
+    "fecha_inclusion": "2024-03-05",
+    "pedido": {
+        "numero_pedido": "0067",
+        "fecha_compra": "2024-03-20",
+        "fecha_entrega": "2024-03-25",
+        "total_factura": 180.00,
+        "productos": [
+            {
+                "nombre_producto": "Camisa",
+                "referencia": "CMS024",
+                "precio": 60.00,
+                "unidades": 3
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Laura",
+    "apellidos": "González",
+    "telefono": "987654321",
+    "direccion": {
+        "calle": "Calle Gran Vía 789",
+        "ciudad": "Barcelona",
+        "codigo_postal": "08001",
+        "provincia": "Barcelona"
+    },
+    "correo_electronico": "laura@example.com",
+    "fecha_inclusion": "2024-03-20",
+    "pedido": {
+        "numero_pedido": "0068",
+        "fecha_compra": "2024-04-05",
+        "fecha_entrega": "2024-04-10",
+        "total_factura": 220.00,
+        "productos": [
+            {
+                "nombre_producto": "Jersey",
+                "referencia": "JRS010",
+                "precio": 80.00,
+                "unidades": 2
+            },
+            {
+                "nombre_producto": "Bufanda",
+                "referencia": "BFD012",
+                "precio": 40.00,
+                "unidades": 2
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Carlos",
+    "apellidos": "Sánchez",
+    "telefono": "321987654",
+    "direccion": {
+        "calle": "Calle Sol 789",
+        "ciudad": "Valencia",
+        "codigo_postal": "46002",
+        "provincia": "Valencia"
+    },
+    "correo_electronico": "carlos@example.com",
+    "fecha_inclusion": "2024-04-05",
+    "pedido": {
+        "numero_pedido": "0069",
+        "fecha_compra": "2024-04-20",
+        "fecha_entrega": "2024-04-25",
+        "total_factura": 250.00,
+        "productos": [
+            {
+                "nombre_producto": "Vestido",
+                "referencia": "VSTD014",
+                "precio": 100.00,
+                "unidades": 2
+            },
+            {
+                "nombre_producto": "Zapatos",
+                "referencia": "ZP018",
+                "precio": 75.00,
+                "unidades": 1
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Ana",
+    "apellidos": "Martínez",
+    "telefono": "789456123",
+    "direccion": {
+        "calle": "Calle Mayor 123",
+        "ciudad": "Sevilla",
+        "codigo_postal": "41001",
+        "provincia": "Sevilla"
+    },
+    "correo_electronico": "ana@example.com",
+    "fecha_inclusion": "2024-04-20",
+    "pedido": {
+        "numero_pedido": "0070",
+        "fecha_compra": "2024-05-05",
+        "fecha_entrega": "2024-05-10",
+        "total_factura": 180.00,
+        "productos": [
+            {
+                "nombre_producto": "Camiseta",
+                "referencia": "CMS025",
+                "precio": 60.00,
+                "unidades": 3
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Diego",
+    "apellidos": "Hernández",
+    "telefono": "654321987",
+    "direccion": {
+        "calle": "Calle Gran Vía 456",
+        "ciudad": "Barcelona",
+        "codigo_postal": "08002",
+        "provincia": "Barcelona"
+    },
+    "correo_electronico": "diego@example.com",
+    "fecha_inclusion": "2024-05-05",
+    "pedido": {
+        "numero_pedido": "0071",
+        "fecha_compra": "2024-05-20",
+        "fecha_entrega": "2024-05-25",
+        "total_factura": 210.00,
+        "productos": [
+            {
+                "nombre_producto": "Zapatos",
+                "referencia": "ZP019",
+                "precio": 70.00,
+                "unidades": 3
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Javier",
+    "apellidos": "Gómez",
+    "telefono": "654987321",
+    "direccion": {
+        "calle": "Calle Mayor 456",
+        "ciudad": "Madrid",
+        "codigo_postal": "28001",
+        "provincia": "Madrid"
+    },
+    "correo_electronico": "javier@example.com",
+    "fecha_inclusion": "2024-05-20",
+    "pedido": {
+        "numero_pedido": "0072",
+        "fecha_compra": "2024-06-05",
+        "fecha_entrega": "2024-06-10",
+        "total_factura": 180.00,
+        "productos": [
+            {
+                "nombre_producto": "Camisa",
+                "referencia": "CMS026",
+                "precio": 60.00,
+                "unidades": 3
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Sara",
+    "apellidos": "López",
+    "telefono": "987654321",
+    "direccion": {
+        "calle": "Calle Gran Vía 789",
+        "ciudad": "Barcelona",
+        "codigo_postal": "08001",
+        "provincia": "Barcelona"
+    },
+    "correo_electronico": "sara@example.com",
+    "fecha_inclusion": "2024-06-05",
+    "pedido": {
+        "numero_pedido": "0073",
+        "fecha_compra": "2024-06-20",
+        "fecha_entrega": "2024-06-25",
+        "total_factura": 220.00,
+        "productos": [
+            {
+                "nombre_producto": "Jersey",
+                "referencia": "JRS011",
+                "precio": 80.00,
+                "unidades": 2
+            },
+            {
+                "nombre_producto": "Bufanda",
+                "referencia": "BFD013",
+                "precio": 40.00,
+                "unidades": 2
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Marcos",
+    "apellidos": "Sánchez",
+    "telefono": "321987654",
+    "direccion": {
+        "calle": "Calle Sol 789",
+        "ciudad": "Valencia",
+        "codigo_postal": "46002",
+        "provincia": "Valencia"
+    },
+    "correo_electronico": "marcos@example.com",
+    "fecha_inclusion": "2024-06-20",
+    "pedido": {
+        "numero_pedido": "0074",
+        "fecha_compra": "2024-07-05",
+        "fecha_entrega": "2024-07-10",
+        "total_factura": 250.00,
+        "productos": [
+            {
+                "nombre_producto": "Vestido",
+                "referencia": "VSTD015",
+                "precio": 100.00,
+                "unidades": 2
+            },
+            {
+                "nombre_producto": "Zapatos",
+                "referencia": "ZP020",
+                "precio": 75.00,
+                "unidades": 1
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Elena",
+    "apellidos": "Martínez",
+    "telefono": "789456123",
+    "direccion": {
+        "calle": "Calle Mayor 123",
+        "ciudad": "Sevilla",
+        "codigo_postal": "41001",
+        "provincia": "Sevilla"
+    },
+    "correo_electronico": "elena@example.com",
+    "fecha_inclusion": "2024-07-05",
+    "pedido": {
+        "numero_pedido": "0075",
+        "fecha_compra": "2024-07-20",
+        "fecha_entrega": "2024-07-25",
+        "total_factura": 180.00,
+        "productos": [
+            {
+                "nombre_producto": "Camiseta",
+                "referencia": "CMS027",
+                "precio": 60.00,
+                "unidades": 3
+            }
+        ]
+    }
+  },
+  {
+    "nombre": "Diego",
+    "apellidos": "Hernández",
+    "telefono": "654321987",
+    "direccion": {
+        "calle": "Calle Gran Vía 456",
+        "ciudad": "Barcelona",
+        "codigo_postal": "08002",
+        "provincia": "Barcelona"
+    },
+    "correo_electronico": "diego@example.com",
+    "fecha_inclusion": "2024-07-20",
+    "pedido": {
+        "numero_pedido": "0076",
+        "fecha_compra": "2024-08-05",
+        "fecha_entrega": "2024-08-10",
+        "total_factura": 210.00,
+        "productos": [
+            {
+                "nombre_producto": "Zapatos",
+                "referencia": "ZP021",
+                "precio": 70.00,
+                "unidades": 3
+            }
+        ]
+    }
+}
+]
+}
+}
+ }
+  
+    
+        
+          
